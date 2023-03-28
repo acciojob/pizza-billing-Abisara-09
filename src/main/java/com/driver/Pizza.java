@@ -2,6 +2,13 @@ package com.driver;
 
 public class Pizza {
 
+
+    // 2 benefits of these
+
+    //1. It prevents duplicate addition of the cheese if called multiple times
+    //2. It also tells which all things have been added
+
+
     private int price;
     private Boolean isVeg;
     private String bill;
